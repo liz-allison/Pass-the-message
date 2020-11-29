@@ -3,23 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel ="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Pass The Message</title>
+
+    <link rel="stylesheet" href="main.css">
+   
 </head>
 <body>
     <div class="container">
-        
-        <form name="myForm" method="post" onsubmit="validateForm(); return false;">
-            <h1 class="text">A Message You Would Like To Pass</h1>
+        <form name="myForm" method="post" onsubmit="validateForm(); return false">
+            <h1>A message you would like to pass</h1>
+            <h5 id="error"></h5>
             <input id="entry">
             <br>
-            <button onclick="getMessage(); return false;">Submit</button>
-            <h1 id="error"></h1>
-            <h1 class="text">last message delivered</h1> 
-            <h1 id="question">hello world</h1>
+            <button onclick="getMessage(); return false";>Submit</button>
+            <h2>Last message delivered:</h2>
+            <h1 id="message">Hello world</h1>
         </form>
-      
     </div>
     <script src="script.js"></script>
+    
 </body>
 </html>
