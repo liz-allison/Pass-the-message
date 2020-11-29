@@ -1,0 +1,19 @@
+body {
+    background-color:lightblue;
+}
+
+div.container {
+    background-color: tan;
+    padding: 100px;
+    margin: 5% 20%;
+    text-align: center;
+}
+
+input {
+    padding: 1% 40% 1% 0%;
+}
+
+button {
+    background: lime;
+}
+
